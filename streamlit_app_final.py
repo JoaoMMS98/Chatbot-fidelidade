@@ -13,7 +13,7 @@ pip install python-dotenv
 """
 
 import streamlit as st
-from openai import AzureOpenAI
+from azure.openai import AzureOpenAI
 from dotenv import load_dotenv
 import os
 import time
