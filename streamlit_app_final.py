@@ -1,7 +1,19 @@
+pip install -r requirements.txt
 
+pip install openai
+pip install python-dotenv
+"""
+**Business Case Group R**
+
+- Afonso Gamito, 20240725
+- Amine Raffali, 20242055
+- Gonçalo Pacheco, 20240695
+- Hassan Bhati, 20241023
+- João Sampaio, 20240748
+"""
 
 import streamlit as st
-from azure.openai import AzureOpenAI
+from openai import AzureOpenAI
 from dotenv import load_dotenv
 import os
 import time
