@@ -1,5 +1,5 @@
-streamlit>=1.26.0
-openai
+streamlit>=1.44.1
+openai>=1.82.0
 python-dotenv
 time 
 os
