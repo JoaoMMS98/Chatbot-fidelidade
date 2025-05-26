@@ -1,3 +1,4 @@
+pip install --upgrade pip
 """
 **Business Case Group R**
 
