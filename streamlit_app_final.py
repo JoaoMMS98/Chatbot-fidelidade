@@ -16,7 +16,6 @@ import time
 
 load_dotenv()
 
-logotipo = "imagens/logo_fidelidade.png"
 
 instructions = """Missão do Assistente Virtual:
 
@@ -199,10 +198,6 @@ instructions = """Missão do Assistente Virtual:
                 Utilização consistente do idioma correspondente à pergunta (Português ou Inglês).
                 Caso a pergunta seja irrelevante ou fora do âmbito de atuação do assistente, deves responder de forma educada, informando que não é possível ajudar nesse tema, e sugerir fontes ou encaminhar para as áreas competentes sempre que aplicável.',
                 """
-AZURE_OPENAI_KEY= '8J6pTdfaGgA5r193UVLsBshUspqwNpal42Jse1aHaok1cWNTLpRkJQQJ99BDACYeBjFXJ3w3AAABACOGLa23'
-AZURE_OPENAI_ENDPOINT=  'https://ai-bcds.openai.azure.com/'
-AZURE_OPENAI_DEPLOYMENT_NAME= 'gpt-4o-mini-BCwDS'
-
 client = AzureOpenAI(
     api_key=AZURE_OPENAI_KEY,
     api_version="2024-05-01-preview",
