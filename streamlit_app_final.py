@@ -13,8 +13,6 @@ pip install python-dotenv
 
 import streamlit as st
 from openai import AzureOpenAI
-import os
-import time
 
 
 instructions = """Missão do Assistente Virtual:
@@ -202,7 +200,7 @@ AZURE_OPENAI_ENDPOINT=  'https://ai-bcds.openai.azure.com/'
 AZURE_OPENAI_DEPLOYMENT_NAME= 'gpt-4o-mini-BCwDS'
 
 client = AzureOpenAI(
-    api_key= st.secrets[AZURE_OPENAI_KEY],
+    api_key= st.secrets["AZURE_OPENAI_KEY"],
     api_version="2024-05-01-preview",
     azure_endpoint=AZURE_OPENAI_ENDPOINT,
 )
