@@ -13,11 +13,8 @@ pip install python-dotenv
 
 import streamlit as st
 from openai import AzureOpenAI
-from dotenv import load_dotenv
 import os
 import time
-
-load_dotenv()
 
 
 instructions = """Missão do Assistente Virtual:
