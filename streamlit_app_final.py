@@ -1,6 +1,5 @@
 
-pip install openai
-pip install python-dotenv
+
 """
 **Business Case Group R**
 
