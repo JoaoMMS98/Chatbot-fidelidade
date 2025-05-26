@@ -1,7 +1,5 @@
 streamlit
-AzureOpenAI
 openai
 dotenv
-load_dotenv
 time 
 os
