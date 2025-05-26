@@ -12,7 +12,7 @@
 
 import streamlit as st
 from openai import AzureOpenAI
-
+import time
 
 instructions = """Missão do Assistente Virtual:
 
