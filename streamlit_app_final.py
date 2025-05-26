@@ -1,6 +1,7 @@
 pip install -r requirements.txt
 
-pip install openai dotenv 
+pip install openai
+pip install python-dotenv
 """
 **Business Case Group R**
 
